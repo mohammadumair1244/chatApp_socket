@@ -1,4 +1,4 @@
-const io = require('socket.io')('https://chat-app-socket.vercel.app/')
+const io = require('socket.io')(8000)
 
 const users = {};
 
